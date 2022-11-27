@@ -1,4 +1,125 @@
 {
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2022-10-31 23:32:17 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2022-11-28 02:36:30 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar": {
+    "criteria": {
+      "has_quartz_block": "2022-11-28 02:36:35 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2022-10-31 23:32:17 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2022-11-28 02:36:30 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2022-10-31 23:36:46 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2022-11-28 02:36:35 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2022-11-28 02:36:30 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2022-11-28 02:36:30 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2022-11-28 02:36:35 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2022-11-28 02:36:35 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2022-10-31 23:32:17 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone": {
+    "criteria": {
+      "has_cobblestone": "2022-11-28 02:36:30 +0900"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2022-11-28 02:36:30 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2022-11-28 02:36:30 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2022-11-28 02:36:30 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2022-11-28 02:36:35 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2022-10-31 23:32:12 +0900",
+      "minecraft:river": "2022-10-31 23:32:07 +0900"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2022-11-28 02:36:35 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2022-11-28 02:36:30 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/campfire": {
     "criteria": {
       "has_stick": "2022-10-31 23:32:17 +0900"
@@ -17,21 +138,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/wooden_sword": {
-    "criteria": {
-      "has_stick": "2022-10-31 23:32:17 +0900"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/wooden_pickaxe": {
     "criteria": {
       "has_stick": "2022-10-31 23:32:17 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/tools/wooden_axe": {
+  "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
     "criteria": {
-      "has_stick": "2022-10-31 23:32:17 +0900"
+      "has_quartz_block": "2022-11-28 02:36:35 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2022-11-28 02:36:30 +0900"
     },
     "done": true
   },
@@ -41,21 +162,45 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "in_water": "2022-10-31 23:36:46 +0900"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
       "in_water": "2022-10-31 23:36:46 +0900"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_quartz": {
+    "criteria": {
+      "has_quartz_block": "2022-11-28 02:36:35 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2022-11-28 02:36:30 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
       "in_water": "2022-10-31 23:36:46 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2022-11-28 02:36:35 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2022-11-28 02:36:35 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2022-11-28 02:36:30 +0900"
     },
     "done": true
   },
@@ -89,15 +234,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/wooden_hoe": {
+  "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
-      "has_stick": "2022-10-31 23:32:17 +0900"
+      "has_cobblestone": "2022-11-28 02:36:30 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2022-11-28 02:36:30 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks": {
+    "criteria": {
+      "has_quartz_block": "2022-11-28 02:36:35 +0900"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/spruce_wood": {
     "criteria": {
       "has_log": "2022-10-31 23:32:38 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2022-11-28 02:11:13 +0900"
     },
     "done": true
   },
@@ -113,12 +276,11 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
-      "minecraft:taiga": "2022-10-31 23:32:12 +0900",
-      "minecraft:river": "2022-10-31 23:32:07 +0900"
+      "has_cobblestone": "2022-11-28 02:36:30 +0900"
     },
-    "done": false
+    "done": true
   },
   "DataVersion": 3120
 }

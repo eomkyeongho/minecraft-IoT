@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "78a4d737-2fe2-4860-a627-5e6c6b85cde8",
+    "name": "Park_Gom",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

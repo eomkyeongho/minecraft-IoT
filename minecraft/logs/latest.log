@@ -1,541 +1,440 @@
-[23:29:07] [ServerMain/INFO]: Building unoptimized datafixer
-[23:29:07] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[23:29:08] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[23:29:08] [ServerMain/INFO]: Loaded 7 recipes
-[23:29:10] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[23:29:10] [Server thread/INFO]: Loading properties
-[23:29:10] [Server thread/INFO]: This server is running CraftBukkit version 3605-Spigot-6198b5a-f43634a (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT)
-[23:29:10] [Server thread/INFO]: Debug logging is disabled
-[23:29:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[23:29:10] [Server thread/INFO]: Using 4 threads for Netty based IO
-[23:29:10] [Server thread/INFO]: Default game type: SURVIVAL
-[23:29:10] [Server thread/INFO]: Generating keypair
-[23:29:10] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:29:10] [Server thread/INFO]: Using default channel type
-[23:29:10] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[23:29:13] [Server thread/WARN]: Legacy plugin RaspberryJuice v1.9.1 does not specify an api-version.
-[23:29:13] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.9.1
-[23:29:13] [Server thread/INFO]: Preparing level "world"
-[23:29:13] [Server thread/INFO]: -------- World Settings For [world] --------
-[23:29:13] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:29:13] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:29:13] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:29:13] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:29:13] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:29:13] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:29:13] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:29:13] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:29:13] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:29:13] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:29:13] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:29:13] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:29:13] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:29:13] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:29:13] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:29:13] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:29:13] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:29:13] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[23:29:13] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[23:29:13] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[23:29:13] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:29:13] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:29:13] [Server thread/INFO]: View Distance: 10
-[23:29:13] [Server thread/INFO]: Simulation Distance: 10
-[23:29:13] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[23:29:13] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:29:13] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:29:13] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:29:13] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[23:29:13] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[23:29:13] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:29:13] [Server thread/INFO]: Max TNT Explosions: 100
-[23:29:13] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:29:13] [Server thread/INFO]: Mob Spawn Range: 6
-[23:29:13] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[23:29:14] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[23:29:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:29:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:29:14] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:29:14] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:29:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:29:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:29:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:29:14] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:29:14] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:29:14] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:29:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:29:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:29:14] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:29:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:29:14] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:29:14] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:29:14] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:29:14] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[23:29:14] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[23:29:14] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[23:29:14] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:29:14] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:29:14] [Server thread/INFO]: View Distance: 10
-[23:29:14] [Server thread/INFO]: Simulation Distance: 10
-[23:29:14] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[23:29:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:29:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:29:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:29:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[23:29:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[23:29:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:29:14] [Server thread/INFO]: Max TNT Explosions: 100
-[23:29:14] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:29:14] [Server thread/INFO]: Mob Spawn Range: 6
-[23:29:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[23:29:15] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[23:29:15] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:29:15] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:29:15] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:29:15] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:29:15] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:29:15] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:29:15] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:29:15] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:29:15] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:29:15] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:29:15] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:29:15] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:29:15] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:29:15] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:29:15] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:29:15] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:29:15] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:29:15] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[23:29:15] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[23:29:15] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[23:29:15] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:29:15] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:29:15] [Server thread/INFO]: View Distance: 10
-[23:29:15] [Server thread/INFO]: Simulation Distance: 10
-[23:29:15] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[23:29:15] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:29:15] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:29:15] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:29:15] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[23:29:15] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[23:29:15] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:29:15] [Server thread/INFO]: Max TNT Explosions: 100
-[23:29:15] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:29:15] [Server thread/INFO]: Mob Spawn Range: 6
-[23:29:15] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[23:29:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[23:29:15] [Server thread/INFO]: Preparing spawn area: 0%
-[23:29:21] [Worker-Main-4/INFO]: Preparing spawn area: 89%
-[23:29:21] [Worker-Main-3/INFO]: Preparing spawn area: 89%
-[23:29:21] [Worker-Main-3/INFO]: Preparing spawn area: 89%
-[23:29:21] [Worker-Main-3/INFO]: Preparing spawn area: 89%
-[23:29:21] [Worker-Main-4/INFO]: Preparing spawn area: 89%
-[23:29:21] [Worker-Main-4/INFO]: Preparing spawn area: 89%
-[23:29:21] [Worker-Main-11/INFO]: Preparing spawn area: 89%
-[23:29:21] [Worker-Main-4/INFO]: Preparing spawn area: 89%
-[23:29:21] [Worker-Main-11/INFO]: Preparing spawn area: 89%
-[23:29:21] [Worker-Main-3/INFO]: Preparing spawn area: 89%
-[23:29:21] [Worker-Main-11/INFO]: Preparing spawn area: 89%
-[23:29:21] [Worker-Main-3/INFO]: Preparing spawn area: 89%
-[23:29:21] [Worker-Main-4/INFO]: Preparing spawn area: 89%
-[23:29:22] [Worker-Main-3/INFO]: Preparing spawn area: 89%
-[23:29:22] [Worker-Main-3/INFO]: Preparing spawn area: 89%
-[23:29:23] [Worker-Main-8/INFO]: Preparing spawn area: 89%
-[23:29:23] [Worker-Main-10/INFO]: Preparing spawn area: 89%
-[23:29:24] [Worker-Main-6/INFO]: Preparing spawn area: 89%
-[23:29:24] [Worker-Main-8/INFO]: Preparing spawn area: 89%
-[23:29:25] [Worker-Main-7/INFO]: Preparing spawn area: 89%
-[23:29:25] [Worker-Main-3/INFO]: Preparing spawn area: 92%
-[23:29:26] [Worker-Main-6/INFO]: Preparing spawn area: 94%
-[23:29:26] [Worker-Main-6/INFO]: Preparing spawn area: 97%
-[23:29:27] [Worker-Main-6/INFO]: Preparing spawn area: 99%
-[23:29:27] [Server thread/INFO]: Time elapsed: 12078 ms
-[23:29:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[23:29:27] [Server thread/INFO]: Preparing spawn area: 0%
-[23:29:27] [Worker-Main-5/INFO]: Preparing spawn area: 87%
-[23:29:28] [Worker-Main-5/INFO]: Preparing spawn area: 87%
-[23:29:28] [Worker-Main-4/INFO]: Preparing spawn area: 87%
-[23:29:29] [Worker-Main-8/INFO]: Preparing spawn area: 88%
-[23:29:29] [Worker-Main-5/INFO]: Preparing spawn area: 93%
-[23:29:30] [Worker-Main-9/INFO]: Preparing spawn area: 99%
-[23:29:30] [Server thread/INFO]: Time elapsed: 3065 ms
-[23:29:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[23:29:30] [Server thread/INFO]: Preparing spawn area: 0%
-[23:29:31] [Worker-Main-9/INFO]: Preparing spawn area: 94%
-[23:29:31] [Server thread/INFO]: Time elapsed: 566 ms
-[23:29:31] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.9.1
-[23:29:31] [Server thread/INFO]: [RaspberryJuice] Using port 4711
-[23:29:31] [Server thread/INFO]: [RaspberryJuice] Using RELATIVE locations
-[23:29:31] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
-[23:29:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[23:29:31] [Server thread/INFO]: Done (17.724s)! For help, type "help"
-[23:31:06] [Server thread/INFO]: [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
-[23:31:06] [Server thread/INFO]: [0;37;22mUse /help [n] to get page n of help.[m
-[23:31:06] [Server thread/INFO]: [0;37;22m[0;33;22mAliases: [0;37;1mLists command aliases[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22mMinecraft: [0;37;1mAll commands for Minecraft[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/advancement: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/attribute: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/ban: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/ban-ip: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/banlist: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/bossbar: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/clear: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/clone: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/data: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/datapack: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/debug: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/defaultgamemode: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/deop: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/difficulty: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/effect: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/enchant: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/execute: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/experience: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/fill: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/forceload: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/function: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/gamemode: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/gamerule: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/give: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/help: [0;37;1mShows the help menu[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/item: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/jfr: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/kick: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/kill: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/list: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/locate: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/loot: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/me: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:help: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:reload: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/msg: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/op: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/pardon: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/pardon-ip: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/particle: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/perf: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/place: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/playsound: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/recipe: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/restart: [0;37;1mRestarts the server[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/save-all: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/save-off: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/save-on: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/say: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/schedule: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/scoreboard: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/seed: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/setblock: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/setidletimeout: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/setworldspawn: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/spawnpoint: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/spectate: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/spigot: [0;37;1mSpigot related commands[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/spreadplayers: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/stop: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/stopsound: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/summon: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/tag: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/team: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/teammsg: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/teleport: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/tell: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/tellraw: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/time: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/timings: [0;37;1mManages Spigot Timings data to see performance of the server.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/title: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/tm: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/tp: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/tps: [0;37;1mGets the current ticks per second for the server[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/trigger: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/w: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/weather: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/whitelist: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/worldborder: [0;37;1mA Mojang provided command.[m
-[23:31:06] [Server thread/INFO]: [0;37;1m[0;33;22m/xp: [0;37;1mA Mojang provided command.[m
-[23:32:06] [User Authenticator #1/INFO]: UUID of player Park_Gom is 78a4d737-2fe2-4860-a627-5e6c6b85cde8
-[23:32:06] [Server thread/INFO]: Park_Gom joined the game
-[23:32:06] [Server thread/INFO]: Park_Gom[/127.0.0.1:57537] logged in with entity id 1 at ([world]6.5, 64.0, 13.5)
-[23:33:36] [Thread-13/INFO]: [RaspberryJuice] Starting input thread
-[23:33:36] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59514.
-[23:33:36] [Thread-14/INFO]: [RaspberryJuice] Starting output thread!
-[23:34:10] [Thread-13/INFO]: [RaspberryJuice] Connection reset
-[23:34:10] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59514.
-[23:34:10] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59527.
-[23:34:10] [Thread-16/INFO]: [RaspberryJuice] Starting output thread!
-[23:34:10] [Thread-15/INFO]: [RaspberryJuice] Starting input thread
-[23:34:11] [Server thread/INFO]: Hello![m
-[23:34:44] [Thread-15/INFO]: [RaspberryJuice] Connection reset
-[23:34:44] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59527.
-[23:34:45] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59537.
-[23:34:45] [Thread-18/INFO]: [RaspberryJuice] Starting output thread!
-[23:34:45] [Thread-17/INFO]: [RaspberryJuice] Starting input thread
-[23:34:49] [Thread-17/INFO]: [RaspberryJuice] Connection reset
-[23:34:49] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59537.
-[23:34:53] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59542.
-[23:34:53] [Thread-19/INFO]: [RaspberryJuice] Starting input thread
-[23:34:53] [Thread-20/INFO]: [RaspberryJuice] Starting output thread!
-[23:34:53] [Server thread/INFO]: 0[m
-[23:34:54] [Thread-19/INFO]: [RaspberryJuice] Connection reset
-[23:34:54] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59542.
-[23:35:13] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59561.
-[23:35:13] [Thread-21/INFO]: [RaspberryJuice] Starting input thread
-[23:35:13] [Thread-22/INFO]: [RaspberryJuice] Starting output thread!
-[23:35:13] [Server thread/INFO]: 0[m
-[23:35:13] [Server thread/INFO]: 1[m
-[23:35:14] [Server thread/INFO]: 2[m
-[23:35:14] [Server thread/INFO]: 3[m
-[23:35:14] [Server thread/INFO]: 4[m
-[23:35:14] [Server thread/INFO]: 5[m
-[23:35:14] [Server thread/INFO]: 6[m
-[23:35:14] [Server thread/INFO]: 7[m
-[23:35:14] [Server thread/INFO]: 8[m
-[23:35:14] [Server thread/INFO]: 9[m
-[23:35:14] [Server thread/INFO]: 10[m
-[23:35:14] [Server thread/INFO]: 11[m
-[23:35:15] [Server thread/INFO]: 12[m
-[23:35:15] [Server thread/INFO]: 13[m
-[23:35:15] [Server thread/INFO]: 14[m
-[23:35:15] [Server thread/INFO]: 15[m
-[23:35:15] [Server thread/INFO]: 16[m
-[23:35:15] [Server thread/INFO]: 17[m
-[23:35:15] [Server thread/INFO]: 18[m
-[23:35:15] [Server thread/INFO]: 19[m
-[23:35:15] [Server thread/INFO]: 20[m
-[23:35:16] [Server thread/INFO]: 21[m
-[23:35:16] [Server thread/INFO]: 22[m
-[23:35:16] [Server thread/INFO]: 23[m
-[23:35:16] [Server thread/INFO]: 24[m
-[23:35:16] [Server thread/INFO]: 25[m
-[23:35:16] [Server thread/INFO]: 26[m
-[23:35:16] [Server thread/INFO]: 27[m
-[23:35:16] [Server thread/INFO]: 28[m
-[23:35:16] [Server thread/INFO]: 29[m
-[23:35:16] [Server thread/INFO]: 30[m
-[23:35:17] [Server thread/INFO]: 31[m
-[23:35:17] [Server thread/INFO]: 32[m
-[23:35:17] [Server thread/INFO]: 33[m
-[23:35:17] [Server thread/INFO]: 34[m
-[23:35:17] [Server thread/INFO]: 35[m
-[23:35:17] [Server thread/INFO]: 36[m
-[23:35:17] [Server thread/INFO]: 37[m
-[23:35:17] [Server thread/INFO]: 38[m
-[23:35:17] [Server thread/INFO]: 39[m
-[23:35:18] [Server thread/INFO]: 40[m
-[23:35:18] [Server thread/INFO]: 41[m
-[23:35:18] [Server thread/INFO]: 42[m
-[23:35:18] [Server thread/INFO]: 43[m
-[23:35:18] [Server thread/INFO]: 44[m
-[23:35:18] [Server thread/INFO]: 45[m
-[23:35:18] [Server thread/INFO]: 46[m
-[23:35:18] [Server thread/INFO]: 47[m
-[23:35:18] [Server thread/INFO]: 48[m
-[23:35:18] [Server thread/INFO]: 49[m
-[23:35:19] [Server thread/INFO]: 50[m
-[23:35:19] [Server thread/INFO]: 51[m
-[23:35:19] [Server thread/INFO]: 52[m
-[23:35:19] [Server thread/INFO]: 53[m
-[23:35:19] [Server thread/INFO]: 54[m
-[23:35:19] [Server thread/INFO]: 55[m
-[23:35:19] [Server thread/INFO]: 56[m
-[23:35:19] [Server thread/INFO]: 57[m
-[23:35:19] [Server thread/INFO]: 58[m
-[23:35:20] [Server thread/INFO]: 59[m
-[23:35:20] [Server thread/INFO]: 60[m
-[23:35:20] [Server thread/INFO]: 61[m
-[23:35:20] [Server thread/INFO]: 62[m
-[23:35:20] [Server thread/INFO]: 63[m
-[23:35:20] [Server thread/INFO]: 64[m
-[23:35:20] [Server thread/INFO]: 65[m
-[23:35:20] [Server thread/INFO]: 66[m
-[23:35:20] [Server thread/INFO]: 67[m
-[23:35:20] [Server thread/INFO]: 68[m
-[23:35:21] [Server thread/INFO]: 69[m
-[23:35:21] [Server thread/INFO]: 70[m
-[23:35:21] [Server thread/INFO]: 71[m
-[23:35:21] [Server thread/INFO]: 72[m
-[23:35:21] [Server thread/INFO]: 73[m
-[23:35:21] [Server thread/INFO]: 74[m
-[23:35:21] [Server thread/INFO]: 75[m
-[23:35:21] [Server thread/INFO]: 76[m
-[23:35:21] [Server thread/INFO]: 77[m
-[23:35:21] [Server thread/INFO]: 78[m
-[23:35:22] [Server thread/INFO]: 79[m
-[23:35:22] [Server thread/INFO]: 80[m
-[23:35:22] [Server thread/INFO]: 81[m
-[23:35:22] [Server thread/INFO]: 82[m
-[23:35:22] [Server thread/INFO]: 83[m
-[23:35:22] [Server thread/INFO]: 84[m
-[23:35:22] [Server thread/INFO]: 85[m
-[23:35:22] [Server thread/INFO]: 86[m
-[23:35:22] [Server thread/INFO]: 87[m
-[23:35:23] [Server thread/INFO]: 88[m
-[23:35:23] [Server thread/INFO]: 89[m
-[23:35:23] [Server thread/INFO]: 90[m
-[23:35:23] [Server thread/INFO]: 91[m
-[23:35:23] [Server thread/INFO]: 92[m
-[23:35:23] [Server thread/INFO]: 93[m
-[23:35:23] [Server thread/INFO]: 94[m
-[23:35:23] [Server thread/INFO]: 95[m
-[23:35:23] [Server thread/INFO]: 96[m
-[23:35:23] [Server thread/INFO]: 97[m
-[23:35:24] [Server thread/INFO]: 98[m
-[23:35:24] [Server thread/INFO]: 99[m
-[23:35:30] [Thread-21/INFO]: [RaspberryJuice] Connection reset
-[23:35:30] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59561.
-[23:35:30] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59571.
-[23:35:30] [Thread-23/INFO]: [RaspberryJuice] Starting input thread
-[23:35:30] [Thread-24/INFO]: [RaspberryJuice] Starting output thread!
-[23:35:31] [Server thread/INFO]: 0[m
-[23:35:31] [Server thread/INFO]: 1[m
-[23:35:31] [Server thread/INFO]: 2[m
-[23:35:31] [Server thread/INFO]: 3[m
-[23:35:31] [Server thread/INFO]: 4[m
-[23:35:31] [Server thread/INFO]: 5[m
-[23:35:31] [Server thread/INFO]: 6[m
-[23:35:31] [Server thread/INFO]: 7[m
-[23:35:31] [Server thread/INFO]: 8[m
-[23:35:31] [Server thread/INFO]: 9[m
-[23:35:32] [Server thread/INFO]: 10[m
-[23:35:32] [Server thread/INFO]: 11[m
-[23:35:32] [Server thread/INFO]: 12[m
-[23:35:32] [Server thread/INFO]: 13[m
-[23:35:32] [Server thread/INFO]: 14[m
-[23:35:32] [Server thread/INFO]: 15[m
-[23:35:32] [Server thread/INFO]: 16[m
-[23:35:32] [Server thread/INFO]: 17[m
-[23:35:32] [Server thread/INFO]: 18[m
-[23:35:33] [Server thread/INFO]: 19[m
-[23:35:33] [Server thread/INFO]: 20[m
-[23:35:33] [Server thread/INFO]: 21[m
-[23:35:33] [Server thread/INFO]: 22[m
-[23:35:33] [Server thread/INFO]: 23[m
-[23:35:33] [Server thread/INFO]: 24[m
-[23:35:33] [Server thread/INFO]: 25[m
-[23:35:33] [Server thread/INFO]: 26[m
-[23:35:33] [Server thread/INFO]: 27[m
-[23:35:33] [Server thread/INFO]: 28[m
-[23:35:34] [Server thread/INFO]: 29[m
-[23:35:34] [Server thread/INFO]: 30[m
-[23:35:34] [Server thread/INFO]: 31[m
-[23:35:34] [Server thread/INFO]: 32[m
-[23:35:34] [Server thread/INFO]: 33[m
-[23:35:34] [Server thread/INFO]: 34[m
-[23:35:34] [Server thread/INFO]: 35[m
-[23:35:34] [Server thread/INFO]: 36[m
-[23:35:34] [Server thread/INFO]: 37[m
-[23:35:35] [Server thread/INFO]: 38[m
-[23:35:35] [Server thread/INFO]: 39[m
-[23:35:35] [Server thread/INFO]: 40[m
-[23:35:35] [Server thread/INFO]: 41[m
-[23:35:35] [Server thread/INFO]: 42[m
-[23:35:35] [Server thread/INFO]: 43[m
-[23:35:35] [Server thread/INFO]: 44[m
-[23:35:35] [Server thread/INFO]: 45[m
-[23:35:35] [Server thread/INFO]: 46[m
-[23:35:35] [Server thread/INFO]: 47[m
-[23:35:36] [Server thread/INFO]: 48[m
-[23:35:36] [Server thread/INFO]: 49[m
-[23:35:36] [Server thread/INFO]: 50[m
-[23:35:36] [Server thread/INFO]: 51[m
-[23:35:36] [Server thread/INFO]: 52[m
-[23:35:36] [Server thread/INFO]: 53[m
-[23:35:36] [Server thread/INFO]: 54[m
-[23:35:36] [Server thread/INFO]: 55[m
-[23:35:36] [Server thread/INFO]: 56[m
-[23:35:37] [Server thread/INFO]: 57[m
-[23:35:37] [Server thread/INFO]: 58[m
-[23:35:37] [Server thread/INFO]: 59[m
-[23:35:37] [Server thread/INFO]: 60[m
-[23:35:37] [Server thread/INFO]: 61[m
-[23:35:37] [Server thread/INFO]: 62[m
-[23:35:37] [Server thread/INFO]: 63[m
-[23:35:37] [Server thread/INFO]: 64[m
-[23:35:37] [Server thread/INFO]: 65[m
-[23:35:37] [Server thread/INFO]: 66[m
-[23:35:38] [Server thread/INFO]: 67[m
-[23:35:38] [Server thread/INFO]: 68[m
-[23:35:38] [Server thread/INFO]: 69[m
-[23:35:38] [Server thread/INFO]: 70[m
-[23:35:38] [Server thread/INFO]: 71[m
-[23:35:38] [Server thread/INFO]: 72[m
-[23:35:38] [Server thread/INFO]: 73[m
-[23:35:38] [Server thread/INFO]: 74[m
-[23:35:38] [Server thread/INFO]: 75[m
-[23:35:39] [Server thread/INFO]: 76[m
-[23:35:39] [Server thread/INFO]: 77[m
-[23:35:39] [Server thread/INFO]: 78[m
-[23:35:39] [Server thread/INFO]: 79[m
-[23:35:39] [Server thread/INFO]: 80[m
-[23:35:39] [Server thread/INFO]: 81[m
-[23:35:39] [Server thread/INFO]: 82[m
-[23:35:39] [Server thread/INFO]: 83[m
-[23:35:39] [Server thread/INFO]: 84[m
-[23:35:39] [Server thread/INFO]: 85[m
-[23:35:40] [Server thread/INFO]: 86[m
-[23:35:40] [Server thread/INFO]: 87[m
-[23:35:40] [Server thread/INFO]: 88[m
-[23:35:40] [Server thread/INFO]: 89[m
-[23:35:40] [Server thread/INFO]: 90[m
-[23:35:40] [Server thread/INFO]: 91[m
-[23:35:40] [Server thread/INFO]: 92[m
-[23:35:40] [Server thread/INFO]: 93[m
-[23:35:40] [Server thread/INFO]: 94[m
-[23:35:41] [Server thread/INFO]: 95[m
-[23:35:41] [Server thread/INFO]: 96[m
-[23:35:41] [Server thread/INFO]: 97[m
-[23:35:41] [Server thread/INFO]: 98[m
-[23:35:41] [Server thread/INFO]: 99[m
-[23:38:01] [Server thread/INFO]: Park_Gom issued server command: /tp 0 0 0
-[23:38:43] [Thread-23/INFO]: [RaspberryJuice] Connection reset
-[23:38:43] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59571.
-[23:38:43] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59665.
-[23:38:43] [Thread-27/INFO]: [RaspberryJuice] Starting input thread
-[23:38:43] [Thread-28/INFO]: [RaspberryJuice] Starting output thread!
-[23:39:18] [Thread-27/INFO]: [RaspberryJuice] Connection reset
-[23:39:18] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59665.
-[23:39:18] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59676.
-[23:39:18] [Thread-29/INFO]: [RaspberryJuice] Starting input thread
-[23:39:18] [Thread-30/INFO]: [RaspberryJuice] Starting output thread!
-[23:39:19] [Server thread/WARN]: [RaspberryJuice] Error occured handling command
-[23:39:19] [Server thread/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
-[23:39:19] [Server thread/WARN]: 	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleCommand(RemoteSession.java:164)
-[23:39:19] [Server thread/WARN]: 	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:133)
-[23:39:19] [Server thread/WARN]: 	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113)
-[23:39:19] [Server thread/WARN]: 	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:167)
-[23:39:19] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82)
-[23:39:19] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415)
-[23:39:19] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1245)
-[23:39:19] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394)
-[23:39:19] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197)
-[23:39:19] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013)
-[23:39:19] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293)
-[23:39:19] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1589)
-[23:39:41] [Thread-29/INFO]: [RaspberryJuice] Connection reset
-[23:39:41] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59676.
-[23:39:41] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59687.
-[23:39:41] [Thread-33/INFO]: [RaspberryJuice] Starting output thread!
-[23:39:41] [Thread-32/INFO]: [RaspberryJuice] Starting input thread
-[23:42:06] [Thread-32/INFO]: [RaspberryJuice] Connection reset
-[23:42:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59687.
-[23:42:07] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59725.
-[23:42:07] [Thread-34/INFO]: [RaspberryJuice] Starting input thread
-[23:42:07] [Thread-35/INFO]: [RaspberryJuice] Starting output thread!
-[23:42:09] [Server thread/INFO]: Park_Gom fell from a high place
-[23:42:24] [Thread-34/INFO]: [RaspberryJuice] Connection reset
-[23:42:24] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59725.
-[23:42:24] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59733.
-[23:42:24] [Thread-38/INFO]: [RaspberryJuice] Starting input thread
-[23:42:24] [Thread-39/INFO]: [RaspberryJuice] Starting output thread!
-[23:42:27] [Server thread/INFO]: Park_Gom fell from a high place
-[23:42:30] [Thread-38/INFO]: [RaspberryJuice] Connection reset
-[23:42:30] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59733.
-[23:42:31] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59737.
-[23:42:31] [Thread-40/INFO]: [RaspberryJuice] Starting input thread
-[23:42:31] [Thread-41/INFO]: [RaspberryJuice] Starting output thread!
-[23:42:33] [Server thread/INFO]: Park_Gom fell from a high place
+[01:27:55] [ServerMain/INFO]: Building unoptimized datafixer
+[01:27:55] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:27:56] [ServerMain/INFO]: Loaded 7 recipes
+[01:27:58] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[01:27:58] [Server thread/INFO]: Loading properties
+[01:27:58] [Server thread/INFO]: This server is running CraftBukkit version 3605-Spigot-6198b5a-f43634a (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT)
+[01:27:59] [Server thread/INFO]: Debug logging is disabled
+[01:27:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:27:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:27:59] [Server thread/INFO]: Default game type: SURVIVAL
+[01:27:59] [Server thread/INFO]: Generating keypair
+[01:27:59] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:27:59] [Server thread/INFO]: Using default channel type
+[01:27:59] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[01:28:02] [Server thread/WARN]: Legacy plugin RaspberryJuice v1.9.1 does not specify an api-version.
+[01:28:02] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.9.1
+[01:28:02] [Server thread/INFO]: Preparing level "world"
+[01:28:02] [Server thread/INFO]: -------- World Settings For [world] --------
+[01:28:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:28:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:28:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:28:02] [Server thread/INFO]: View Distance: 10
+[01:28:02] [Server thread/INFO]: Simulation Distance: 10
+[01:28:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:28:02] [Server thread/INFO]: Mob Spawn Range: 6
+[01:28:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[01:28:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[01:28:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01:28:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:28:02] [Server thread/INFO]: Max TNT Explosions: 100
+[01:28:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:28:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:28:02] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01:28:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:28:02] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[01:28:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:28:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:28:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:28:02] [Server thread/INFO]: View Distance: 10
+[01:28:02] [Server thread/INFO]: Simulation Distance: 10
+[01:28:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:28:02] [Server thread/INFO]: Mob Spawn Range: 6
+[01:28:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[01:28:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[01:28:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01:28:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:28:02] [Server thread/INFO]: Max TNT Explosions: 100
+[01:28:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:28:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:28:02] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01:28:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:28:02] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[01:28:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:28:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:28:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:28:02] [Server thread/INFO]: View Distance: 10
+[01:28:02] [Server thread/INFO]: Simulation Distance: 10
+[01:28:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:28:02] [Server thread/INFO]: Mob Spawn Range: 6
+[01:28:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[01:28:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[01:28:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[01:28:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01:28:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:28:02] [Server thread/INFO]: Max TNT Explosions: 100
+[01:28:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:28:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:28:02] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01:28:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:28:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:28:04] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[01:28:04] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[01:28:04] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[01:28:04] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[01:28:10] [Worker-Main-10/INFO]: Preparing spawn area: 2%
+[01:28:10] [Worker-Main-10/INFO]: Preparing spawn area: 2%
+[01:28:10] [Worker-Main-10/INFO]: Preparing spawn area: 2%
+[01:28:10] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[01:28:10] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[01:28:10] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[01:28:10] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[01:28:10] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[01:28:10] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[01:28:10] [Worker-Main-11/INFO]: Preparing spawn area: 2%
+[01:28:10] [Worker-Main-11/INFO]: Preparing spawn area: 2%
+[01:28:10] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[01:28:10] [Worker-Main-10/INFO]: Preparing spawn area: 2%
+[01:28:11] [Worker-Main-1/INFO]: Preparing spawn area: 5%
+[01:28:11] [Worker-Main-3/INFO]: Preparing spawn area: 15%
+[01:28:12] [Worker-Main-5/INFO]: Preparing spawn area: 33%
+[01:28:12] [Worker-Main-2/INFO]: Preparing spawn area: 61%
+[01:28:13] [Worker-Main-3/INFO]: Preparing spawn area: 83%
+[01:28:13] [Worker-Main-2/INFO]: Preparing spawn area: 84%
+[01:28:14] [Worker-Main-9/INFO]: Preparing spawn area: 93%
+[01:28:14] [Server thread/INFO]: Time elapsed: 11764 ms
+[01:28:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:28:15] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:28:15] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[01:28:15] [Worker-Main-11/INFO]: Preparing spawn area: 54%
+[01:28:16] [Worker-Main-6/INFO]: Preparing spawn area: 70%
+[01:28:16] [Worker-Main-3/INFO]: Preparing spawn area: 75%
+[01:28:17] [Worker-Main-10/INFO]: Preparing spawn area: 83%
+[01:28:17] [Worker-Main-4/INFO]: Preparing spawn area: 86%
+[01:28:18] [Worker-Main-1/INFO]: Preparing spawn area: 93%
+[01:28:18] [Server thread/INFO]: Time elapsed: 3999 ms
+[01:28:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:28:18] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[01:28:19] [Worker-Main-5/INFO]: Preparing spawn area: 4%
+[01:28:19] [Worker-Main-10/INFO]: Preparing spawn area: 76%
+[01:28:19] [Server thread/INFO]: Time elapsed: 1194 ms
+[01:28:19] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.9.1
+[01:28:19] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[01:28:19] [Server thread/INFO]: [RaspberryJuice] Using RELATIVE locations
+[01:28:19] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[01:28:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:28:19] [Server thread/INFO]: Done (17.541s)! For help, type "help"
+[01:29:56] [User Authenticator #1/INFO]: UUID of player Park_Gom is 78a4d737-2fe2-4860-a627-5e6c6b85cde8
+[01:29:56] [Server thread/INFO]: Park_Gom joined the game
+[01:29:57] [Server thread/INFO]: Park_Gom[/127.0.0.1:55558] logged in with entity id 134 at ([world]5.450211909643006, 64.0, 12.00134454785636)
+[01:30:19] [Server thread/INFO]: Park_Gom lost connection: Disconnected
+[01:30:19] [Server thread/INFO]: Park_Gom left the game
+[01:30:24] [User Authenticator #2/INFO]: UUID of player Park_Gom is 78a4d737-2fe2-4860-a627-5e6c6b85cde8
+[01:30:24] [Server thread/INFO]: Park_Gom joined the game
+[01:30:24] [Server thread/INFO]: Park_Gom[/127.0.0.1:55585] logged in with entity id 194 at ([world]5.450211909643006, 64.0, 12.00134454785636)
+[01:31:01] [Thread-14/INFO]: [RaspberryJuice] Starting input thread
+[01:31:01] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55606.
+[01:31:01] [Thread-15/INFO]: [RaspberryJuice] Starting output thread!
+[01:31:01] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55606.
+[01:31:03] [Server thread/INFO]: Park_Gom fell from a high place
+[01:35:06] [Server thread/INFO]: Park_Gom issued server command: /gamerule doDaylightCycle false
+[01:35:49] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55742.
+[01:35:49] [Thread-19/INFO]: [RaspberryJuice] Starting output thread!
+[01:35:49] [Thread-18/INFO]: [RaspberryJuice] Starting input thread
+[01:35:50] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55742.
+[01:40:04] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55959.
+[01:40:04] [Thread-21/INFO]: [RaspberryJuice] Starting output thread!
+[01:40:04] [Thread-20/INFO]: [RaspberryJuice] Starting input thread
+[01:40:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55959.
+[01:40:05] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55961.
+[01:40:05] [Thread-22/INFO]: [RaspberryJuice] Starting input thread
+[01:40:05] [Thread-23/INFO]: [RaspberryJuice] Starting output thread!
+[01:40:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55961.
+[01:40:06] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55962.
+[01:40:06] [Thread-24/INFO]: [RaspberryJuice] Starting input thread
+[01:40:06] [Thread-25/INFO]: [RaspberryJuice] Starting output thread!
+[01:40:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55962.
+[01:40:13] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55964.
+[01:40:13] [Thread-28/INFO]: [RaspberryJuice] Starting input thread
+[01:40:13] [Thread-29/INFO]: [RaspberryJuice] Starting output thread!
+[01:40:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55964.
+[01:40:14] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55965.
+[01:40:14] [Thread-30/INFO]: [RaspberryJuice] Starting input thread
+[01:40:14] [Thread-31/INFO]: [RaspberryJuice] Starting output thread!
+[01:40:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55965.
+[01:40:15] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55966.
+[01:40:15] [Thread-32/INFO]: [RaspberryJuice] Starting input thread
+[01:40:15] [Thread-33/INFO]: [RaspberryJuice] Starting output thread!
+[01:40:15] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55966.
+[01:40:15] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55967.
+[01:40:15] [Thread-34/INFO]: [RaspberryJuice] Starting input thread
+[01:40:15] [Thread-35/INFO]: [RaspberryJuice] Starting output thread!
+[01:40:16] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55967.
+[01:40:16] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55968.
+[01:40:16] [Thread-36/INFO]: [RaspberryJuice] Starting input thread
+[01:40:16] [Thread-37/INFO]: [RaspberryJuice] Starting output thread!
+[01:40:16] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55968.
+[01:40:17] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55969.
+[01:40:17] [Thread-38/INFO]: [RaspberryJuice] Starting input thread
+[01:40:17] [Thread-39/INFO]: [RaspberryJuice] Starting output thread!
+[01:40:17] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55969.
+[01:41:18] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:56011.
+[01:41:18] [Thread-40/INFO]: [RaspberryJuice] Starting input thread
+[01:41:18] [Thread-41/INFO]: [RaspberryJuice] Starting output thread!
+[01:41:18] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:56011.
+[01:41:41] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:56033.
+[01:41:41] [Thread-43/INFO]: [RaspberryJuice] Starting input thread
+[01:41:41] [Thread-44/INFO]: [RaspberryJuice] Starting output thread!
+[01:41:41] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:56033.
+[01:41:55] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:56045.
+[01:41:55] [Thread-45/INFO]: [RaspberryJuice] Starting input thread
+[01:41:55] [Thread-46/INFO]: [RaspberryJuice] Starting output thread!
+[01:41:55] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:56045.
+[01:42:01] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:56050.
+[01:42:01] [Thread-47/INFO]: [RaspberryJuice] Starting input thread
+[01:42:01] [Thread-48/INFO]: [RaspberryJuice] Starting output thread!
+[01:42:01] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:56050.
+[02:01:29] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55369.
+[02:01:29] [Thread-50/INFO]: [RaspberryJuice] Starting input thread
+[02:01:29] [Thread-51/INFO]: [RaspberryJuice] Starting output thread!
+[02:01:29] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55369.
+[02:04:14] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:62235.
+[02:04:14] [Thread-52/INFO]: [RaspberryJuice] Starting input thread
+[02:04:14] [Thread-53/INFO]: [RaspberryJuice] Starting output thread!
+[02:04:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:62235.
+[02:05:08] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:62257.
+[02:05:08] [Thread-55/INFO]: [RaspberryJuice] Starting output thread!
+[02:05:08] [Thread-54/INFO]: [RaspberryJuice] Starting input thread
+[02:05:08] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:62257.
+[02:06:21] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:62301.
+[02:06:21] [Thread-56/INFO]: [RaspberryJuice] Starting input thread
+[02:06:21] [Thread-57/INFO]: [RaspberryJuice] Starting output thread!
+[02:06:21] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:62301.
+[02:07:02] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63888.
+[02:07:02] [Thread-58/INFO]: [RaspberryJuice] Starting input thread
+[02:07:02] [Thread-59/INFO]: [RaspberryJuice] Starting output thread!
+[02:07:02] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63888.
+[02:07:21] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54034.
+[02:07:21] [Thread-60/INFO]: [RaspberryJuice] Starting input thread
+[02:07:21] [Thread-61/INFO]: [RaspberryJuice] Starting output thread!
+[02:07:21] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54034.
+[02:09:20] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53741.
+[02:09:20] [Thread-62/INFO]: [RaspberryJuice] Starting input thread
+[02:09:20] [Thread-63/INFO]: [RaspberryJuice] Starting output thread!
+[02:09:20] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53741.
+[02:09:40] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53748.
+[02:09:40] [Thread-64/INFO]: [RaspberryJuice] Starting input thread
+[02:09:40] [Thread-65/INFO]: [RaspberryJuice] Starting output thread!
+[02:09:40] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53748.
+[02:10:22] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53772.
+[02:10:22] [Thread-68/INFO]: [RaspberryJuice] Starting output thread!
+[02:10:22] [Thread-67/INFO]: [RaspberryJuice] Starting input thread
+[02:10:22] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53772.
+[02:10:25] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53773.
+[02:10:25] [Thread-69/INFO]: [RaspberryJuice] Starting input thread
+[02:10:25] [Thread-70/INFO]: [RaspberryJuice] Starting output thread!
+[02:10:26] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53773.
+[02:10:30] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53775.
+[02:10:30] [Thread-71/INFO]: [RaspberryJuice] Starting input thread
+[02:10:30] [Thread-72/INFO]: [RaspberryJuice] Starting output thread!
+[02:10:30] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53775.
+[02:10:34] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53777.
+[02:10:34] [Thread-73/INFO]: [RaspberryJuice] Starting input thread
+[02:10:34] [Thread-74/INFO]: [RaspberryJuice] Starting output thread!
+[02:10:34] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53777.
+[02:10:44] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53781.
+[02:10:44] [Thread-75/INFO]: [RaspberryJuice] Starting input thread
+[02:10:44] [Thread-76/INFO]: [RaspberryJuice] Starting output thread!
+[02:10:44] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53781.
+[02:11:00] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53788.
+[02:11:00] [Thread-78/INFO]: [RaspberryJuice] Starting input thread
+[02:11:00] [Thread-79/INFO]: [RaspberryJuice] Starting output thread!
+[02:11:00] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53788.
+[02:11:13] [Server thread/INFO]: Park_Gom was slain by Zombie
+[02:12:17] [Server thread/INFO]: Park_Gom issued server command: /time set 0
+[02:12:29] [Async Chat Thread - #0/INFO]: <Park_Gom> time set 0
+[02:12:37] [Server thread/INFO]: Park_Gom issued server command: /time set 0
+[02:13:18] [Server thread/INFO]: Park_Gom issued server command: /gamemode survival
+[02:13:53] [Server thread/INFO]: Made Park_Gom a server operator
+[02:14:08] [Server thread/INFO]: Park_Gom issued server command: /gamerule doDaylightCycle false
+[02:14:08] [Server thread/INFO]: [Park_Gom: Gamerule doDaylightCycle is now set to: false]
+[02:14:18] [Server thread/INFO]: Park_Gom issued server command: /time set 0
+[02:14:18] [Server thread/INFO]: [Park_Gom: Set the time to 0]
+[02:14:39] [Server thread/INFO]: Park_Gom issued server command: /time set night
+[02:14:39] [Server thread/INFO]: [Park_Gom: Set the time to 13000]
+[02:14:50] [Server thread/INFO]: Park_Gom issued server command: /time set noon
+[02:14:50] [Server thread/INFO]: [Park_Gom: Set the time to 6000]
+[02:15:49] [Server thread/INFO]: Park_Gom was slain by Enderman
+[02:16:33] [Server thread/INFO]: Park_Gom issued server command: /kill @e[type!=player]
+[02:16:40] [Server thread/INFO]: Park_Gom issued server command: /kill @e
+[02:16:40] [Server thread/INFO]: Park_Gom fell out of the world
+[02:16:40] [Server thread/INFO]: [Park_Gom: Killed 142 entities]
+[02:17:08] [Server thread/INFO]: Park_Gom issued server command: /kill @e[type!=Park_Gom]
+[02:17:20] [Server thread/INFO]: Park_Gom issued server command: /kill @e[type=!player]
+[02:17:20] [Server thread/INFO]: [Park_Gom: Killed 199 entities]
+[02:17:24] [Server thread/INFO]: Park_Gom issued server command: /kill @e[type=!player]
+[02:17:24] [Server thread/INFO]: [Park_Gom: Killed 189 entities]
+[02:17:25] [Server thread/INFO]: Park_Gom issued server command: /kill @e[type=!player]
+[02:17:25] [Server thread/INFO]: [Park_Gom: Killed 66 entities]
+[02:19:20] [Server thread/INFO]: Park_Gom issued server command: /kill @e[type=!player]
+[02:19:20] [Server thread/INFO]: [Park_Gom: Killed 130 entities]
+[02:19:43] [Server thread/INFO]: Park_Gom issued server command: /gamerule doMobSp
+[02:19:57] [Server thread/INFO]: Park_Gom issued server command: /gamerule doMobSpawning false
+[02:19:57] [Server thread/INFO]: [Park_Gom: Gamerule doMobSpawning is now set to: false]
+[02:20:01] [Server thread/INFO]: Park_Gom issued server command: /kill @e[type=!player]
+[02:20:01] [Server thread/INFO]: [Park_Gom: Killed 190 entities]
+[02:20:04] [Server thread/INFO]: Park_Gom issued server command: /kill @e[type=!player]
+[02:20:04] [Server thread/INFO]: [Park_Gom: Killed 76 entities]
+[02:20:08] [Server thread/INFO]: Park_Gom issued server command: /kill @e[type=!player]
+[02:20:10] [Server thread/INFO]: Park_Gom issued server command: /kill @e[type=!player]
+[02:23:06] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58467.
+[02:23:06] [Thread-84/INFO]: [RaspberryJuice] Starting output thread!
+[02:23:06] [Thread-83/INFO]: [RaspberryJuice] Starting input thread
+[02:23:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58467.
+[02:25:01] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:49567.
+[02:25:01] [Thread-86/INFO]: [RaspberryJuice] Starting input thread
+[02:25:01] [Thread-87/INFO]: [RaspberryJuice] Starting output thread!
+[02:25:01] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:49567.
+[02:25:11] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:49574.
+[02:25:11] [Thread-89/INFO]: [RaspberryJuice] Starting input thread
+[02:25:11] [Thread-90/INFO]: [RaspberryJuice] Starting output thread!
+[02:25:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:49574.
+[02:25:44] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:49582.
+[02:25:44] [Thread-91/INFO]: [RaspberryJuice] Starting input thread
+[02:25:44] [Thread-92/INFO]: [RaspberryJuice] Starting output thread!
+[02:25:44] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:49582.
+[02:25:48] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:49583.
+[02:25:48] [Thread-93/INFO]: [RaspberryJuice] Starting input thread
+[02:25:48] [Thread-94/INFO]: [RaspberryJuice] Starting output thread!
+[02:25:49] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:49583.
+[02:25:51] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:49585.
+[02:25:51] [Thread-96/INFO]: [RaspberryJuice] Starting output thread!
+[02:25:51] [Thread-95/INFO]: [RaspberryJuice] Starting input thread
+[02:25:51] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:49585.
+[02:25:54] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:49586.
+[02:25:54] [Thread-97/INFO]: [RaspberryJuice] Starting input thread
+[02:25:54] [Thread-98/INFO]: [RaspberryJuice] Starting output thread!
+[02:25:54] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:49586.
+[02:26:18] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:49597.
+[02:26:18] [Thread-99/INFO]: [RaspberryJuice] Starting input thread
+[02:26:18] [Thread-100/INFO]: [RaspberryJuice] Starting output thread!
+[02:26:18] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:49597.
+[02:26:22] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:49599.
+[02:26:22] [Thread-101/INFO]: [RaspberryJuice] Starting input thread
+[02:26:22] [Thread-102/INFO]: [RaspberryJuice] Starting output thread!
+[02:26:22] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:49599.
+[02:26:35] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:49605.
+[02:26:35] [Thread-103/INFO]: [RaspberryJuice] Starting input thread
+[02:26:35] [Thread-104/INFO]: [RaspberryJuice] Starting output thread!
+[02:26:35] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:49605.
+[02:28:37] [Server thread/INFO]: Park_Gom issued server command: /time set 6000
+[02:28:37] [Server thread/INFO]: [Park_Gom: Set the time to 6000]
+[02:28:42] [Server thread/INFO]: Park_Gom issued server command: /time set night
+[02:28:42] [Server thread/INFO]: [Park_Gom: Set the time to 13000]
+[02:28:51] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:56434.
+[02:28:51] [Thread-106/INFO]: [RaspberryJuice] Starting input thread
+[02:28:51] [Thread-107/INFO]: [RaspberryJuice] Starting output thread!
+[02:28:51] [Server thread/INFO]: /time set 0[m
+[02:28:51] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:56434.
+[02:29:34] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:61637.
+[02:29:34] [Thread-108/INFO]: [RaspberryJuice] Starting input thread
+[02:29:34] [Thread-109/INFO]: [RaspberryJuice] Starting output thread!
+[02:31:34] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:61637.
+[02:31:38] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63452.
+[02:31:38] [Thread-110/INFO]: [RaspberryJuice] Starting input thread
+[02:31:38] [Thread-111/INFO]: [RaspberryJuice] Starting output thread!
+[02:31:38] [Server thread/INFO]: /time set 0[m
+[02:31:38] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63452.
+[02:35:40] [Server thread/INFO]: Park_Gom issued server command: /give @p minecraft:diamond_sword{Enchantments:[{id:"minecraft:knockback",lvl:100}]}
+[02:35:40] [Server thread/INFO]: [Park_Gom: Gave 1 [Diamond Sword] to Park_Gom]
+[02:36:27] [Server thread/INFO]: Park_Gom issued server command: /give @p minecraft:diamond_pickaxe{Enchantments:[{id:"minecraft:efficiency",lvl:1000},{id:"minecraft:fortune",lvl:1000},{id:"minecraft:unbreaking",lvl:1000},{id:"minecraft:silk_touch"},{id:"minecraft:mending"}]}
+[02:36:27] [Server thread/INFO]: [Park_Gom: Gave 1 [Diamond Pickaxe] to Park_Gom]
+[02:36:30] [Server thread/INFO]: Park_Gom has made the advancement [Stone Age]
+[02:36:43] [Server thread/INFO]: Park_Gom issued server command: /time set noon
+[02:36:43] [Server thread/INFO]: [Park_Gom: Set the time to 6000]
+[02:37:43] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:50576.
+[02:37:43] [Thread-113/INFO]: [RaspberryJuice] Starting input thread
+[02:37:43] [Thread-114/INFO]: [RaspberryJuice] Starting output thread!
+[02:37:43] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:50576.
+[02:37:46] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:50577.
+[02:37:46] [Thread-115/INFO]: [RaspberryJuice] Starting input thread
+[02:37:46] [Thread-116/INFO]: [RaspberryJuice] Starting output thread!
+[02:37:46] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:50577.
+[02:37:51] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:50586.
+[02:37:51] [Thread-117/INFO]: [RaspberryJuice] Starting input thread
+[02:37:51] [Thread-118/INFO]: [RaspberryJuice] Starting output thread!
+[02:37:51] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:50586.
+[02:37:54] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:50588.
+[02:37:54] [Thread-119/INFO]: [RaspberryJuice] Starting input thread
+[02:37:54] [Thread-120/INFO]: [RaspberryJuice] Starting output thread!
+[02:37:54] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:50588.
+[02:37:59] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:50591.
+[02:37:59] [Thread-121/INFO]: [RaspberryJuice] Starting input thread
+[02:37:59] [Thread-122/INFO]: [RaspberryJuice] Starting output thread!
+[02:38:00] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:50591.
+[02:38:06] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:50595.
+[02:38:06] [Thread-123/INFO]: [RaspberryJuice] Starting input thread
+[02:38:06] [Thread-124/INFO]: [RaspberryJuice] Starting output thread!
+[02:38:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:50595.
+[02:38:10] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:50596.
+[02:38:10] [Thread-126/INFO]: [RaspberryJuice] Starting output thread!
+[02:38:10] [Thread-125/INFO]: [RaspberryJuice] Starting input thread
+[02:38:10] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:50596.
+[02:38:13] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:61923.
+[02:38:13] [Thread-127/INFO]: [RaspberryJuice] Starting input thread
+[02:38:13] [Thread-128/INFO]: [RaspberryJuice] Starting output thread!
+[02:38:13] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:61923.
+[02:38:17] [Thread-8/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:61927.
+[02:38:17] [Thread-129/INFO]: [RaspberryJuice] Starting input thread
+[02:38:17] [Thread-130/INFO]: [RaspberryJuice] Starting output thread!
+[02:38:17] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:61927.
+[02:43:01] [Server thread/INFO]: Park_Gom lost connection: Disconnected
+[02:43:01] [Server thread/INFO]: Park_Gom left the game
+[02:43:05] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[02:43:07] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
