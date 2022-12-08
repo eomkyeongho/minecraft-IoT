@@ -7,3 +7,7 @@ def SetBlock(block):
     pos.y = pos.y + block["y"]
     pos.z = pos.z + block["z"]
     mc.setBlock(pos.x,pos.y,pos.z,block["type"])
+
+def ApplayMinecraft(json_body):
+    print(json_body)
+    return 'sub ok'

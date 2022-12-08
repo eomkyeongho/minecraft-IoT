@@ -1,0 +1,33 @@
+{
+  "Sensor": [
+    {
+      "id": 1,
+      "num": "1",
+      "sensor": "Sensor",
+      "type": "Stone",
+      "isDone": false
+    },
+    {
+      "id": 2,
+      "num": "2",
+      "sensor": "Sensor",
+      "type": "Grass",
+      "isDone": false
+    },
+    {
+      "id": 3,
+      "num": "2",
+      "sensor": "Sensor",
+      "type": "Grass",
+      "isDone": false
+    },
+    {
+      "id": 4,
+      "num": "4",
+      "sensor": "Sensor",
+      "type": "Grass",
+      "isDone": false
+    }
+    
+  ]
+}

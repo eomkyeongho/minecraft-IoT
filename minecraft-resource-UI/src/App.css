@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+/* .Table{
+  margin-left:auto; 
+  margin-right:auto;
+  width: 50%;
+  padding: 40px;
+}
+.table-css{
+  border: 1px solid;
+  width: 100%;
+  padding: 5px;
+  margin: 50px;
+} */
+.Board{
+  background-color: white;
+  height: 100vh;
+}
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  body {
+    font-family: 'nanumsquare';
+  }
+  .black-nav{
+    background: black;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 40px;
+  
+  }
+  div {
+    box-sizing : border-box;
+    text-align : center;
+  }
+  .list {
+    text-align : left;
+    padding-left : 20px;
+    border-bottom : 1px solid grey;
+  }
+  .modal{
+    margin-top: 20px;
+    padding: 20px;
+    background: #eee;
+  }
+  .KitchenSinkExample{
+    margin-top: 20px;
+    padding: 20px;
+    background: #eee;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  /* .App {
+    font-family: sans-serif;
+    text-align: center;
+  } */
+  .component--item_card {
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    margin: 10px 0;
+  }
+  .image--itemcard {
+    float: left;
+    width: 100px;
+    margin-right: 10px;
+    border-right: 1px solid #ddd;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  .page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    width: 100%;
+    height: 80px;
+    border-bottom: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+  }
+  
+  .content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+  }
+  
+  .footer {
+    width: 100%;
+    height: 80px;
+    border-top: 2px solid gray;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .button {
+    padding: 10px;
+    margin-right: 30px;
+  }
+  
